@@ -10,7 +10,6 @@ const UserForm = () => {
 	} = useContext(UserFormContext);
 
 	useEffect(() => {
-		console.log("ue called in userForm.jsx")
 		handleGetDataClick();
 	}, []);
 
